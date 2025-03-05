@@ -1,0 +1,41 @@
+/* Estilos Generales*/
+.titulos {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.logo {
+    width: 200px;
+}
+
+ul {
+    list-style: none;;
+}
+
+/* Páginas ¿Quien Soy? y servicios */
+
+.imagen_presentacion, .imagen_servicios, .imagen_galeria {
+    width: 400px;
+}
+
+/* Pie de página */
+
+.redes-sociales {
+    width: 100px;
+}
+
+footer h3 {
+    text-decoration: underline;
+}
+
+footer div {
+    text-align: center;
+}
+
+.footer {
+    font-size: 20px;
+    text-align: center;
+}
