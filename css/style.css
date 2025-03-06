@@ -1,11 +1,5 @@
 /* Estilos Generales*/
 
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} */
-
 header {
     display: flex;
     justify-content: space-between;
@@ -16,6 +10,22 @@ header {
 header nav ul {
     display: flex;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegurarse de que el body ocupe toda la altura de la pantalla */
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    margin-top: auto;
+}
+
+
 
 .titulos {
     text-align: center;
@@ -50,8 +60,10 @@ header nav ul li a {
     width: 400px;
 }
 
-.seccion{
+
+.seccion {
     display: flex;
+    /* height: 100vh; */
 }
 
 /* Pie de página */
@@ -71,4 +83,36 @@ footer div {
 .footer {
     font-size: 20px;
     text-align: center;
+}
+
+@media(max-width: 500px) {
+
+    header {
+        display: flex;
+        flex-direction: column; /* Apilar los elementos */
+        align-items: center; /* Centrar los elementos */
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column; /* Apilar los enlaces de navegación */
+        align-items: center; /* Centrar los enlaces */
+    }
+
+    header nav ul li {
+        margin: 10px 0; /* Añadir espacio entre los elementos */
+    }
+
+    .seccion {
+        display: flex;
+        height: 60vh;
+    }
+
+    .piepagina {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100%;
+    }
+
+
 }
