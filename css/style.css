@@ -63,7 +63,6 @@ header nav ul li a {
 
 .seccion {
     display: flex;
-    /* height: 100vh; */
 }
 
 /* Pie de página */
@@ -89,18 +88,18 @@ footer div {
 
     header {
         display: flex;
-        flex-direction: column; /* Apilar los elementos */
-        align-items: center; /* Centrar los elementos */
+        flex-direction: column;
+        align-items: center;
     }
 
     header nav ul {
         display: flex;
-        flex-direction: column; /* Apilar los enlaces de navegación */
-        align-items: center; /* Centrar los enlaces */
+        flex-direction: column;
+        align-items: center;
     }
 
     header nav ul li {
-        margin: 10px 0; /* Añadir espacio entre los elementos */
+        margin: 10px 0;
     }
 
     .seccion {
@@ -113,6 +112,4 @@ footer div {
         flex-direction: column;
         margin-top: 100%;
     }
-
-
 }
