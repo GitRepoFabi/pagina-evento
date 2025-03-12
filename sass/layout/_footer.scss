@@ -1,0 +1,21 @@
+@use '../utilities/mixin';
+
+/* Pie de página */
+
+.redes-sociales {
+    //width: 100px;
+    @include mixin.imagen(100px);
+}
+
+footer h3 {
+    text-decoration: underline;
+}
+
+footer div {
+    text-align: center;
+}
+
+.footer {
+    font-size: 20px;
+    text-align: center;
+} 

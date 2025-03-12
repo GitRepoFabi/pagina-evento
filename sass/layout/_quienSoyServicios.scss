@@ -1,0 +1,17 @@
+@use '../utilities/extends';
+@use '../utilities/mixin';
+
+/* Páginas ¿Quien Soy? y servicios */
+
+.imagen_presentacion,
+.imagen_servicios,
+.imagen_galeria {
+    //width: 400px;
+    @include mixin.imagen(400px);
+}
+
+
+.seccion {
+    //display: flex;
+    @extend %displayBasico;
+}

@@ -1,0 +1,56 @@
+@use '../utilities/extends';
+@use '../utilities/mixin';
+
+/* Estilos Generales*/
+
+header {
+    @extend %displayBasico;
+    justify-content: space-between;
+    align-items: center;
+    //width: 100%;
+    @include mixin.imagen(100%);
+}
+
+header nav ul {
+    @extend %displayBasico;
+}
+
+body {
+    @extend %displayBasico;
+    flex-direction: column;
+    min-height: 100vh; /* Asegurarse de que el body ocupe toda la altura de la pantalla */
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.titulos {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.logo {
+    //width: 200px;
+    @include mixin.imagen(200px);
+}
+
+ul {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    background-color: pink;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
