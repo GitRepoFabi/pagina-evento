@@ -8,11 +8,22 @@ header {
     justify-content: space-between;
     align-items: center;
     //width: 100%;
-    @include mixin.imagen(100%);
-}
-
-header nav ul {
-    @extend %displayBasico;
+    @include mixin.imagen(100%); 
+    nav {
+        ul {
+            @extend %displayBasico; 
+            li{
+                a {
+                    text-decoration: none;
+                    background-color: pink;
+                    color: black;
+                    margin: 20px;
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }   
 }
 
 body {
@@ -44,13 +55,4 @@ footer {
 
 ul {
     list-style: none;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    background-color: pink;
-    color: black;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
 }

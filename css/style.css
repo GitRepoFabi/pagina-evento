@@ -9,6 +9,14 @@ header {
   align-items: center;
   width: 100%;
 }
+header nav ul li a {
+  text-decoration: none;
+  background-color: pink;
+  color: black;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
 
 body {
   flex-direction: column;
@@ -37,15 +45,6 @@ footer {
 
 ul {
   list-style: none;
-}
-
-header nav ul li a {
-  text-decoration: none;
-  background-color: pink;
-  color: black;
-  margin: 20px;
-  padding: 10px;
-  border-radius: 10px;
 }
 
 /* Páginas ¿Quien Soy? y servicios */
