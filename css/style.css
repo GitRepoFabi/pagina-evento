@@ -12,11 +12,6 @@ header {
   max-width: 100%;
   height: auto;
 }
-@media (max-width: 768px) {
-  header {
-    max-width: 80%;
-  }
-}
 header nav ul li a {
   text-decoration: none;
   background-color: pink;
@@ -53,11 +48,6 @@ footer {
   max-width: 200px;
   height: auto;
 }
-@media (max-width: 768px) {
-  .logo {
-    max-width: 80%;
-  }
-}
 
 ul {
   list-style: none;
@@ -72,13 +62,6 @@ ul {
   max-width: 400px;
   height: auto;
 }
-@media (max-width: 768px) {
-  .imagen_presentacion,
-  .imagen_servicios,
-  .imagen_galeria {
-    max-width: 80%;
-  }
-}
 
 /* Pie de página */
 .redes-sociales {
@@ -86,11 +69,6 @@ ul {
   width: 100%;
   max-width: 100px;
   height: auto;
-}
-@media (max-width: 768px) {
-  .redes-sociales {
-    max-width: 80%;
-  }
 }
 
 footer h3 {
@@ -128,6 +106,10 @@ footer div {
     display: flex;
     flex-direction: column;
     margin-top: 100%;
+  }
+  .video {
+    width: 100%;
+    height: auto;
   }
 }
 
