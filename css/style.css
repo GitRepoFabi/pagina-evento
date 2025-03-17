@@ -7,7 +7,15 @@
 header {
   justify-content: space-between;
   align-items: center;
+  /* width: $tamanioImagen; */
   width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  header {
+    max-width: 80%;
+  }
 }
 header nav ul li a {
   text-decoration: none;
@@ -40,7 +48,15 @@ footer {
 }
 
 .logo {
-  width: 200px;
+  /* width: $tamanioImagen; */
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .logo {
+    max-width: 80%;
+  }
 }
 
 ul {
@@ -51,12 +67,30 @@ ul {
 .imagen_presentacion,
 .imagen_servicios,
 .imagen_galeria {
-  width: 400px;
+  /* width: $tamanioImagen; */
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .imagen_presentacion,
+  .imagen_servicios,
+  .imagen_galeria {
+    max-width: 80%;
+  }
 }
 
 /* Pie de página */
 .redes-sociales {
-  width: 100px;
+  /* width: $tamanioImagen; */
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .redes-sociales {
+    max-width: 80%;
+  }
 }
 
 footer h3 {
