@@ -112,8 +112,7 @@ footer div {
     height: auto;
   }
   .imagen-contenedor {
-    /*         width: 80%; */
-    margin-top: 400px;
+    margin-top: 60vh;
   }
 }
 
