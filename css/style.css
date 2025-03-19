@@ -63,6 +63,10 @@ ul {
   height: auto;
 }
 
+.imagen_servicios:hover {
+  transform: scale(1.05);
+}
+
 /* Pie de página */
 .redes-sociales {
   /* width: $tamanioImagen; */
