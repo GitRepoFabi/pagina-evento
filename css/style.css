@@ -67,6 +67,13 @@ ul {
   transform: scale(1.05);
 }
 
+.img_servicios {
+  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* Pie de página */
 .redes-sociales {
   /* width: $tamanioImagen; */

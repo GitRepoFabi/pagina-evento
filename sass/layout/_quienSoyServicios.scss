@@ -19,3 +19,10 @@
 .imagen_servicios:hover{
     transform: scale(1.05);
 }
+
+.img_servicios{
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
